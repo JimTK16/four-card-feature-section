@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/JimTK16/ping-coming-soon-page/tree/main
-- Live Site URL: https://ping-coming-soon-page-by-jim.netlify.app/
+- Solution URL: https://github.com/JimTK16/four-card-feature-section
+- Live Site URL: https://four-card-feature-section-by-jim.netlify.app/
 
 ## My process
 
@@ -26,6 +26,5 @@ Users should be able to:
 
 ### What I learned
 
-This is a great challenge to learn more about JS and CSS. I managed to use flexbox in both mobile and desktop view, instead of flexbox for mobile and grid for desktop. I used 'order' property to move an element to end of the flexbox.
-
-The JS part is also a good practice for form validation and dom manipulation.
+- Using the flex property for flex items to adjust their widths to match the design.
+- Plan ahead for the design, combine layout settings for both desktop and mobile so that it would be easier when buiding the desktop version when the mobile version finished.

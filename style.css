@@ -1,5 +1,139 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.main {
+  max-width: 37.5rem;
+  margin: 0 auto;
+  padding: 9rem 3rem;
+}
+
+.header {
+  text-align: center;
+  margin-block-end: 6rem;
+}
+
+.header-text-normal {
+  font-size: 2.4rem;
+  font-weight: 200;
+}
+
+.header-text-bold {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-block-end: 1.6rem;
+}
+
+.header-text-sm {
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+.cards-container,
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+  padding: 3rem;
+  box-shadow: 2px 8px 12px 1px hsla(229, 63%, 58%, 0.17);
+}
+
+.card-header {
+  font-size: 1.8rem;
+  margin-block-end: 0.5rem;
+}
+
+.card-text-sm {
+  font-size: 1.3rem;
+  font-weight: 200;
+  line-height: 1.7;
+  margin-block-end: 3rem;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-wrapper img {
+  width: 5.4rem;
+  height: 5.4rem;
+}
+
+.supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+@media screen and (min-width: 1440px) {
+  .main {
+    max-width: 120rem;
+  }
+
+  .header {
+    padding-inline: 30rem;
+  }
+
+  .header-text-normal,
+  .header-text-bold {
+    font-size: 3.6rem;
+  }
+
+  .header-text-sm {
+    font-size: 1.6rem;
+  }
+
+  .cards-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .card {
+    flex: 1;
+  }
+  .cards-wrapper {
+    flex: 1.2;
+  }
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
 }
